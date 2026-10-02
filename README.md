@@ -25,6 +25,8 @@ development:
 - Neo-tree follows the current file and uses NERDTree-style mappings. LuaSnip
   provides custom C, C++, and Python snippets in addition to
   `friendly-snippets`.
+- TokyoNight's classic `night` variant is selected explicitly; Catppuccin is
+  installed but is not the active colorscheme.
 - Line wrapping, persistent undo, backup files, and swap files are enabled.
   Auto-format-on-save and modelines are disabled. Local backup, swap, and undo
   data live under `~/.config/nvim/{backup,swap,undo}` and should not be
